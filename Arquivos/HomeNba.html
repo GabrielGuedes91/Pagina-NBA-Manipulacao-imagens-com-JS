@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+   <head>
+	<title>NBA - Teams</title>
+ 	<meta charset="utf-8">
+ 	<script src="logosNba.js"></script>
+    <style>
+        body{ 
+            margin: 0px;
+            background:url(imgs/fundo.jpg);
+            background-size:cover;
+        
+            
+        }    
+
+     #conteudo{
+            
+            margin:10px;
+       }        
+     
+     #cabecalho {
+            
+             width: 570px;
+             margin-left: 100px;
+             ;
+             
+           }
+
+           h1, h3 {
+            text-align: center;
+            color: white;
+           }
+
+        #logos {
+            
+             width: 570px;
+             margin: auto;
+             margin-top: 10px;
+           }
+        
+        #player {
+             
+             width: 570px;
+             margin: auto;
+             margin-top: 10px;
+             margin-right: 200px;
+        }
+        
+    </style>
+
+</head>
+   <body> 
+    <div id="conteudo">
+        <div id="cabecalho">
+	        <h1>Descubra o melhor jogador (1990 - 2021) </h1>
+            <h3>Escolha a equipe:</h3>
+        </div>
+        
+        <div id="logos">
+            <img src="imgs/brooklin.png" title="Nets"  onclick="TrocarImagem(this.title , 'brooklinPlayer.png')"> <!--THIS.- pega apenas o title do próprio objeto-->
+	        <img src="imgs/bucks.png" 	title="Bucks"	onclick="TrocarImagem(this.title , 'bucksPlayer.png')">
+	        <img src="imgs/Bulls.png" title="Bulls" onclick="TrocarImagem(this.title,'bullsPlayer.png')">
+	        <img src="imgs/golden.png" 		title="Golden"	onclick="TrocarImagem(this.title , 'goldenPlayer.png')">
+	    <img src="imgs/lakers.png" 		title="Lakers"		onclick="TrocarImagem(this.title ,'lakersPlayer.png')">
+        </div>
+    
+        <div id="player">
+	        <img src="imgs/nbaLove.png" id="imgGrande" title="Best Player"> <!-- Id-identificação p/ poder acessar na função JS -->
+        </div>
+    </div>
+    </body>
+</html>
