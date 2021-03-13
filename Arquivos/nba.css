@@ -1,0 +1,40 @@
+body{ 
+    margin: 0px;
+    background:url(imgs/fundo.jpg);
+    background-size:cover;
+
+    
+}    
+
+#conteudo{
+    
+    margin:10px;
+}        
+
+#cabecalho {
+    
+     width: 570px;
+     margin-left: 100px;
+     ;
+     
+   }
+
+   h1, h3 {
+    text-align: center;
+    color: white;
+   }
+
+#logos {
+    
+     width: 570px;
+     margin: auto;
+     margin-top: 10px;
+   }
+
+#player {
+     
+     width: 570px;
+     margin: auto;
+     margin-top: 10px;
+     margin-right: 200px;
+}
